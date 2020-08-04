@@ -1,1 +1,7 @@
-# Nurbanu
+In this project, you will design and implement two classes for a simple board game. One of these classes will be for the board, and the other will be for players. In these classes, you will apply object sharing principles via reference variables. Namely, there will be one board object and it is going to be shared by two player objects. This board object contains 2-by-6 matrix. The players play in turns. Each player rolls a die and moves its pawn on the board according to the random value returned from die rolling. Each player moves in different directions (one clockwise and the other counter-clockwise). When a player lands on a vacant cell, it gets that cell. The player who owns 7 cells wins the game. Of course, the game may end in a tie if both gets 6 cells. 
+
+The main.cpp file, which contains the game implementation and partially shows how the class functions are used in the game, is provided in the pack. What you will do is the class designs and implementations. Please see the details in the specification. Moreover, we also provide the .exe file of our implementation that can be executed to see how the game works.
+
+In this project, you are not allowed to use friend functions and friend classes.
+
+There is not too much algorithmic challenge in this homework. What you need to know is object sharing and how to design classes using this. Without knowing these concepts, you cannot proceed in the homework. Thus, please first study object sharing principles and class design using these principles.
